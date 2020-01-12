@@ -20,7 +20,7 @@ html {
   /* email section */
   .email-cta-section {
     width: 100%;
-    height: 39.9375rem;
+    height: 170.4vw;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -28,7 +28,7 @@ html {
   }
 
   .email-cta-container {
-    margin-top: 7.625rem;
+    margin-top: 32.5vw;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ html {
     color: #000000;
     letter-spacing: 0;
     text-align: center;
-    margin-bottom: 3.125rem;
+    margin-bottom: 13.3vw;
   }
 
   .email-cta-subtitle {
@@ -52,7 +52,7 @@ html {
     line-height: 26px;
     letter-spacing: 0;
     text-align: center;
-    margin: 0 5% 3.125rem 5%;
+    margin: 0 5% 13.3vw 5%;
   }
 
   .email-input-container {
@@ -69,39 +69,39 @@ html {
     position: absolute;
     z-index: 2;
     top: 32rem;
-    height: 12.5625rem;
   }
 
   .examples-img {
     width: 83%;
-    height: 11.1875rem;
+    height: 47.8vw;
     margin: 0 auto;
     background: url(./images/watch.png) center;
     border-radius: 23px 23px 0 0;
     background-size: cover;
+    background-position: 0px;
   }
 
   .examples-img-over-1 {
-    width: 32%;
-    height: 19.8125rem;
-    margin-top: 1.75rem;
+    width: 46%;
+    height: 32vw;
+    margin-top: 3vw;
     border: 1px solid #ffffff;
     position: absolute;
-    left: 43%;
+    left: 40%;
   }
 
   .examples-img-over-2 {
-    width: 32%;
-    height: 19.8125rem;
-    margin-top: 2.75rem;
+    width: 46%;
+    height: 32vw;
+    margin-top: 4vw;
     border: 1px solid #ffffff;
     position: absolute;
-    left: 42%;
+    left: 39%;
   }
 
   .examples-img-over-2-gradient {
     width: 100%;
-    height: 8.5rem;
+    height: 43%;
     opacity: 0.58;
     background-image: linear-gradient(
       180deg,
@@ -116,23 +116,22 @@ html {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 105%;
-    height: 6.8rem;
+    width: 100%;
     font-family: Poppins;
-    font-size: 34px;
+    font-size: 15px;
     font-weight: 300;
     color: #ffffff;
     letter-spacing: 0;
-    line-height: 41px;
-    margin-left: 1.875rem;
+    line-height: 21px;
+    padding: 0 1.4vw 3.5vw;
   }
 
   .examples-btn-container {
-    width: 32%;
-    height: 2.625rem;
+    width: 46%;
+    height: 4.22vw;
     position: absolute;
-    top: 23.4375rem;
-    left: 42%;
+    top: 37.4vw;
+    left: 39vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -145,7 +144,7 @@ html {
     border: 1px solid #ffffff;
     opacity: 0.83;
     font-family: Poppins-SemiBold;
-    font-size: 16px;
+    font-size: 9px;
     color: #313131;
     letter-spacing: 0;
     text-align: center;
@@ -153,14 +152,13 @@ html {
   }
 
   .examples-white-line {
-    width: 68%;
-    height: 0.625rem;
+    width: 95%;
+    height: 1vw;
     background: #f1f1f1;
     border-radius: 18px 18px 0 0;
     z-index: 3;
     position: absolute;
-    bottom: 0;
-    margin-left: 16%;
+    margin: 0 2.5vw;
   }
 
   .examples-chart-container {
@@ -168,49 +166,46 @@ html {
   }
 
   .example-desc-result {
-    background: url('./images/watch-close.png') no-repeat center top;
-    background-size: 100%;
+    background: url('./images/watch-mobile.png') no-repeat center top;
+    background-size: 101%;
+    background-color: #fff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.15);
-    border-radius: 24px;
+    border-radius: 5px;
     position: absolute;
-    top: 15.5%;
-    right: 6%;
-    width: 12.4%;
-    height: 21.5625rem;
+    top: 19vw;
+    left: 12vw;
+    width: 18vw;
+    height: 34.7vw;
+    z-index: 3;
   }
 
   .ex-desc-res-text-container {
     position: absolute;
     width: 100%;
-    top: 8.3rem;
+    top: 13vw;
     text-align: center;
   }
 
   .res-text-title {
     display: block;
     font-family: Poppins;
-    font-size: 10px;
-    color: #000000;
-    letter-spacing: 0;
-  }
-
-  .res-text-subtitle {
-    display: block;
-    font-family: Poppins-Light;
     font-size: 7px;
     color: #000000;
     letter-spacing: 0;
-    text-align: center;
-    padding: 5% 10% 0;
+    padding: 5%;
+  }
+
+  .res-text-subtitle {
+    display: none;
   }
 
   .liner {
-    height: 2px;
+    height: 1px;
     width: 25%;
     background-color: #d8d8d8;
     margin: 0 37.5%;
     position: absolute;
-    bottom: 15px;
+    bottom: 7px;
   }
 
   .join-text {
@@ -219,25 +214,30 @@ html {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    margin-top: 1.75rem;
   }
-  .join-text > div {
-    width: 30%;
+
+  .liner-container {
+    width: 25%;
+  }
+
+  .join-text-container {
+    width: 50%;
   }
 
   .join-text > div > span {
+    display: block;
     font-family: Poppins;
-    font-size: 9px;
+    font-size: 6px;
     color: #a135f7;
     letter-spacing: 0;
     text-align: center;
   }
 
   .join-liner {
-    height: 2px;
+    height: 0.75px;
     background-color: #d8d8d8;
     width: 75%;
-    margin: 10px auto;
+    margin: 5px auto;
   }
 
   .join-email {
@@ -252,34 +252,95 @@ html {
 
   .join-email-title {
     font-family: Poppins-Light;
-    font-size: 7px;
+    font-size: 4px;
     color: #000000;
     letter-spacing: 0;
-    width: 63%;
-    height: 0.75rem;
+    width: 80%;
+    height: 01.5vw;
     text-align: left;
+    margin-bottom: 3px;
   }
 
   .join-email-input {
     background: #ffffff;
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15);
     border-bottom: 1px solid #a135f7;
-    width: 63%;
-    height: 1.125rem;
+    width: 80%;
+    height: 2.3vw;
     color: rgba(0, 0, 0, 0.28);
     letter-spacing: 0;
     margin-bottom: 0.3125rem;
+    font-size: 3px;
+    padding-top: 3px;
   }
 
   .join-submit-btn {
     background-color: #a135f7;
     font-family: Poppins-Light;
+    font-size: 4px;
     color: white;
-    width: 30%;
-    padding: 2.5% 1%;
+    width: 25px;
+    height: 10px;
+    padding: 3%;
     border-radius: 14px;
   }
+
   /* end example section */
+  /* blue section */
+
+  .desc-blue-section {
+    background-color: #151b20;
+    width: 100%;
+    height: 40.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .desc-blue-title {
+    width: 90%;
+    margin-top: 29vw;
+    top: 0;
+    font-family: Montserrat-ExtraBold;
+    font-size: 26px;
+    color: #00dcf9;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .desc-blue-subtitle {
+    width: 90%;
+    font-family: Poppins-Light;
+    margin-top: 10vw;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  .icon-how {
+    margin-top: 13vw;
+    margin-bottom: 7.2vw;
+  }
+
+  .desc-blue-how {
+    font-family: Poppins-Light;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  .by-providing {
+    width: 90%;
+    margin-top: 0;
+    font-family: Poppins-Light;
+  }
+
+  /* end blue section */
+  /* embed section */
 }
 
 @media only screen and (min-width: 768px) {
@@ -681,9 +742,10 @@ html {
     border-radius: 14px;
   }
   /* end example section */
+  /* blue section */
 
   .desc-blue-section {
-    background-color: #1b233c;
+    background-color: #151b20;
     width: 100%;
     height: 36.1875rem;
     display: flex;
@@ -729,6 +791,9 @@ html {
     margin-top: 0;
     font-family: Poppins-Light;
   }
+
+  /* end blue section */
+  /* embed section */
 
   .embed-section {
     width: 100%;

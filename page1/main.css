@@ -16,7 +16,7 @@ html {
   padding: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* email section */
   .email-cta-section {
     width: 100%;

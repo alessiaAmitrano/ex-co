@@ -20,7 +20,7 @@ html {
   /* email section */
   .email-cta-section {
     width: 100%;
-    height: 170.4vw;
+    height: 197vw;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -98,15 +98,15 @@ html {
     width: 100%;
     position: absolute;
     z-index: 2;
-    top: 32rem;
+    top: 146vw;
   }
 
   .examples-img {
-    width: 83%;
-    height: 47.8vw;
+    width: 89vw;
+    height: 55.8vw;
     margin: 0 auto;
     background: url(./images/exco.png) center;
-    border-radius: 23px 23px 0 0;
+    border-radius: 10px;
     background-size: cover;
     background-position: 0px;
   }
@@ -117,18 +117,16 @@ html {
   .desc-blue-section {
     background-color: #151b20;
     width: 100%;
-    height: 40.875rem;
+    height: 360.5vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
   }
 
   .desc-blue-title {
     width: 90%;
-    margin-top: 29vw;
-    top: 0;
+    margin-top: 33vw;
     font-family: Montserrat-ExtraBold;
     font-size: 26px;
     color: #00dcf9;
@@ -146,17 +144,68 @@ html {
     line-height: 26px;
   }
 
+  .desc-elements {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .element {
+    width: 74.6vw;
+    height: 75.1vw;
+    text-align: center;
+    font-family: Poppins-Light;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 13.6vw;
+  }
+
+  .dialog-icon {
+    width: 29.8vw;
+  }
+
+  .element-title {
+    display: block;
+    font-size: 23px;
+    margin-top: 9.8vw;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  .element-text {
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .vertical-separator {
+    display: none;
+  }
+
   /* end blue section */
   /* embed section */
 
   .embed-section {
     width: 100%;
+    text-align: center;
+  }
+
+  .embed-section-title {
+    display: block;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 10.6vw;
   }
 
   .embed1 {
     width: 95.5vw;
     /* border: 1px solid; */
-    margin: 10.6vw auto 4vw;
+    margin: 12.5vw auto 4vw;
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -182,13 +231,13 @@ html {
     font-size: 26px;
     color: #a135f7;
     letter-spacing: 0;
-    margin-bottom: 13.4vw;
+    margin-bottom: 3.4vw;
   }
 
   .embed1-subtitle {
     display: block;
     font-family: Poppins-Light;
-    font-size: 20px;
+    font-size: 15px;
     color: #000000;
     letter-spacing: 0;
     margin-bottom: 3.73vw;
@@ -206,7 +255,7 @@ html {
   .embed2-subtitle {
     display: block;
     font-family: Poppins-Light;
-    font-size: 20px;
+    font-size: 15px;
     color: #000000;
     letter-spacing: 0;
     margin-bottom: 3.73vw;
@@ -222,7 +271,7 @@ html {
 
   .drop-a-line-section {
     width: 100%;
-    height: 158.4vw;
+    height: 172vw;
     background-image: linear-gradient(90deg, #00dcf9 0%, #a234f7 100%);
     display: flex;
     flex-direction: column;
@@ -246,13 +295,15 @@ html {
 
   .drop-a-line-title {
     font-family: Montserrat-ExtraBold;
-    font-size: 26px;
+    font-size: 28px;
     color: #ffffff;
     letter-spacing: 0;
   }
+
   .drop-a-line-subtitle {
     display: block;
-    margin-top: 0.625rem;
+    margin-top: 10.6vw;
+    margin-bottom: 5.6vw;
     font-family: Poppins-Light;
     font-size: 16px;
     color: #ffffff;
@@ -267,22 +318,6 @@ html {
   }
   .drop-a-line-form {
     width: 100%;
-  }
-
-  .drop-a-line-title {
-    font-family: Montserrat-ExtraBold;
-    font-size: 40px;
-    color: #ffffff;
-    letter-spacing: 0;
-  }
-
-  .drop-a-line-subtitle {
-    display: block;
-    font-family: Poppins-Light;
-    font-size: 20px;
-    color: #ffffff;
-    letter-spacing: 0;
-    margin-top: 0.3vw;
   }
 
   .drop-a-line-form form {
@@ -301,6 +336,7 @@ html {
   .input-email-btn-footer {
     width: 36vw;
     height: 13vw;
+    margin-top: 5vw;
     background-color: #00dcf9;
     font-size: 20px;
     color: #ffffff;
@@ -317,7 +353,7 @@ html {
   /* email section */
   .email-cta-section {
     width: 100vw;
-    height: 86vw;
+    height: 87vw;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -334,7 +370,7 @@ html {
   .email-cta-title {
     display: block;
     font-family: Montserrat-ExtraBold;
-    font-size: 69px;
+    font-size: 55px;
     color: #000000;
     letter-spacing: 0;
     text-align: center;
@@ -354,7 +390,7 @@ html {
   .email-input-container {
     width: 31vw;
     height: 2.9vw;
-    margin: 3vw auto;
+    margin: 6vw auto;
   }
 
   #email-input {
@@ -401,11 +437,11 @@ html {
   }
 
   .examples-img {
-    width: 58vw;
-    height: 33vw;
+    width: 60vw;
+    height: 38vw;
     margin: 0 auto;
     background: url(./images/exco.png) center;
-    border-radius: 23px 23px 0 0;
+    border-radius: 23px;
     background-size: cover;
   }
 
@@ -415,7 +451,7 @@ html {
   .desc-blue-section {
     background-color: #151b20;
     width: 100vw;
-    height: 55vw;
+    height: 95vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -441,11 +477,62 @@ html {
     margin-top: 0.7vw;
   }
 
+  .desc-elements {
+    width: 100vw;
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .element {
+    width: 27vw;
+    text-align: center;
+    font-family: Poppins-Light;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .dialog-icon {
+    width: 10.7vw;
+  }
+
+  .element-title {
+    display: block;
+    font-size: 22px;
+    margin-top: 3.1vw;
+  }
+
+  .element-text {
+    display: block;
+    font-size: 19px;
+  }
+
+  .vertical-separator {
+    width: 1px;
+    height: 18vw;
+    background-color: #d8d8d8;
+    top: 6.7vw;
+    position: relative;
+  }
+
   /* end blue section */
   /* embed section */
 
   .embed-section {
     width: 100vw;
+  }
+
+  .embed-section-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 4.1vw auto;
   }
 
   .embed1 {
@@ -490,19 +577,26 @@ html {
   .embed2 {
     width: 80vw;
     /* border: 1px solid; */
-    margin: 3.5vw auto 5.6vw;
+    margin: 3.5vw auto 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
+  .embed2-text {
+    width: 50%;
+    padding: 16vw 3.2vw 0;
+    box-sizing: border-box;
+  }
+
   .embed2-subtitle {
     display: block;
     font-family: Poppins-Light;
-    font-size: 20px;
+    font-size: 16px;
     color: #000000;
-    margin-top: 0.8vw;
+    margin-top: 0.7vw;
     letter-spacing: 0;
+    text-align: left;
   }
 
   .separator {
@@ -512,7 +606,7 @@ html {
 
   .drop-a-line-section {
     width: 100vw;
-    height: 33.6vw;
+    height: 51.6vw;
     background-image: linear-gradient(90deg, #00dcf9 0%, #a234f7 100%);
     display: flex;
     flex-direction: column;
@@ -520,7 +614,7 @@ html {
   }
 
   .drop-a-line-container {
-    width: 60vw;
+    width: 85vw;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -529,29 +623,26 @@ html {
 
   .drop-a-line-text {
     width: 50%;
-    /* padding: 4vw 0; */
+    padding: 0 3%;
   }
   .drop-a-line-form {
     width: 50%;
+    padding-left: 7vw;
   }
 
   .drop-a-line-title {
     font-family: Montserrat-ExtraBold;
-    font-size: 40px;
+    font-size: 26px;
     color: #ffffff;
     letter-spacing: 0;
   }
   .drop-a-line-subtitle {
     display: block;
     font-family: Poppins-Light;
-    font-size: 20px;
+    font-size: 17px;
     color: #ffffff;
     letter-spacing: 0;
     margin-top: 0.3vw;
-  }
-
-  .drop-a-line-form {
-    padding-left: 2vw;
   }
 
   .drop-a-line-form input {

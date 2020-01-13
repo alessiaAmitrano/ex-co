@@ -1,0 +1,891 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* mobile */
+@media only screen and (max-width: 767px) {
+  /* email section */
+  .email-cta-section {
+    width: 100%;
+    height: 170.4vw;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .email-cta-container {
+    margin-top: 32.5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-cta-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 2rem;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 13.3vw;
+  }
+
+  .email-cta-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 1rem;
+    color: #000000;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0 5% 13.3vw 5%;
+  }
+
+  .email-input-container {
+    margin: 0 auto;
+  }
+
+  #email-input {
+    width: 89vw;
+    height: 11vw;
+    background: #dedede;
+    border-radius: 21px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.51);
+    letter-spacing: 0;
+    border: 0;
+    padding: 0 2vw;
+    font-family: Poppins-Light;
+  }
+
+  #email-input:focus {
+    outline: none;
+  }
+
+  .input-email-btn {
+    width: 33.6vw;
+    height: 11vw;
+    background-color: #a135f7;
+    color: white;
+    font-size: 14px;
+    border-radius: 21px;
+    position: absolute;
+    right: 5.5vw;
+  }
+
+  .input-email-btn:focus {
+    outline: none;
+  }
+  /*  end email section */
+
+  /* examples section */
+  .examples-overlay {
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 32rem;
+  }
+
+  .examples-img {
+    width: 83%;
+    height: 47.8vw;
+    margin: 0 auto;
+    background: url(./images/exco.png) center;
+    border-radius: 23px 23px 0 0;
+    background-size: cover;
+    background-position: 0px;
+  }
+
+  /* end example section */
+  /* blue section */
+
+  .desc-blue-section {
+    background-color: #151b20;
+    width: 100%;
+    height: 40.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .desc-blue-title {
+    width: 90%;
+    margin-top: 29vw;
+    top: 0;
+    font-family: Montserrat-ExtraBold;
+    font-size: 26px;
+    color: #00dcf9;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .desc-blue-subtitle {
+    width: 90%;
+    font-family: Poppins-Light;
+    margin-top: 10vw;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  /* end blue section */
+  /* embed section */
+
+  .embed-section {
+    width: 100%;
+  }
+
+  .embed1 {
+    width: 95.5vw;
+    /* border: 1px solid; */
+    margin: 10.6vw auto 4vw;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .embed1-script {
+    width: 100%;
+  }
+
+  .embed1-text {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center !important;
+  }
+
+  .align-right {
+    text-align: right;
+  }
+
+  .embed1-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 26px;
+    color: #a135f7;
+    letter-spacing: 0;
+    margin-bottom: 13.4vw;
+  }
+
+  .embed1-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-bottom: 3.73vw;
+  }
+
+  .embed2 {
+    width: 81.25%;
+    /* border: 1px solid; */
+    margin: 14.4vw auto 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .embed2-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-bottom: 3.73vw;
+  }
+
+  .separator {
+    width: 249px;
+    margin: 0 auto;
+  }
+
+  /* end embed section */
+  /* drop a line section */
+
+  .drop-a-line-section {
+    width: 100%;
+    height: 158.4vw;
+    background-image: linear-gradient(90deg, #00dcf9 0%, #a234f7 100%);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .drop-a-line-container {
+    width: 90vw;
+    margin: 16vw auto 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .drop-a-line-text {
+    text-align: center;
+  }
+
+  .drop-a-line-form {
+    /* width: 50%; */
+  }
+
+  .drop-a-line-title {
+    font-family: Montserrat-ExtraBold;
+    font-size: 26px;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  .drop-a-line-subtitle {
+    display: block;
+    margin-top: 0.625rem;
+    font-family: Poppins-Light;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    padding: 0 3vw;
+  }
+
+  .drop-a-line-text {
+    width: 100%;
+    padding: 4vw 0;
+  }
+  .drop-a-line-form {
+    width: 100%;
+  }
+
+  .drop-a-line-title {
+    font-family: Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+
+  .drop-a-line-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin-top: 0.3vw;
+  }
+
+  .drop-a-line-form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .drop-a-line-form input {
+    height: 11vw;
+    margin-bottom: 3vw;
+    font-size: 18px;
+    font-family: Poppins-Light;
+  }
+
+  .input-email-btn-footer {
+    width: 36vw;
+    height: 13vw;
+    background-color: #00dcf9;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    border-radius: 26px;
+    color: white;
+  }
+
+  /* end drop a line section */
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) {
+  /* email section */
+  .email-cta-section {
+    width: 100vw;
+    height: 86vw;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .email-cta-container {
+    margin-top: 13vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-cta-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 69px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .email-cta-subtitle {
+    display: block;
+    height: 10vw;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 2vw;
+  }
+
+  .email-input-container {
+    width: 31vw;
+    height: 2.9vw;
+    margin: 3vw auto;
+  }
+
+  #email-input {
+    width: 31vw;
+    height: 2.9vw;
+    background: #dedede;
+    border-radius: 21px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.51);
+    letter-spacing: 0;
+    border: 0;
+    padding: 0 2vw;
+    font-family: Poppins-Light;
+  }
+
+  #email-input:focus {
+    outline: none;
+  }
+
+  .input-email-btn {
+    width: 8.75vw;
+    height: 2.9vw;
+    background-color: #a135f7;
+    color: white;
+    font-size: 14px;
+    border-radius: 21px;
+    position: absolute;
+    right: 34.5vw;
+  }
+
+  .input-email-btn:focus {
+    outline: none;
+  }
+  /*  end email section */
+
+  /* examples section */
+  .examples-overlay {
+    background-color: transparent;
+    width: 100vw;
+    height: 33vw;
+    position: absolute;
+    z-index: 2;
+    top: 56vw;
+  }
+
+  .examples-img {
+    width: 58vw;
+    height: 33vw;
+    margin: 0 auto;
+    background: url(./images/exco.png) center;
+    border-radius: 23px 23px 0 0;
+    background-size: cover;
+  }
+
+  /* end example section */
+  /* blue section */
+
+  .desc-blue-section {
+    background-color: #151b20;
+    width: 100vw;
+    height: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desc-blue-title {
+    width: 75vw;
+    font-family: Montserrat-ExtraBold;
+    font-size: 2.5rem;
+    color: #00dcf9;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .desc-blue-subtitle {
+    width: 75vw;
+    font-family: Poppins-Light;
+    font-size: 1.25rem;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 0.7vw;
+  }
+
+  /* end blue section */
+  /* embed section */
+
+  .embed-section {
+    width: 100vw;
+  }
+
+  .embed1 {
+    width: 80vw;
+    /* border: 1px solid; */
+    margin: 4.8vw auto 3.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .embed1-script {
+    width: 50%;
+  }
+
+  .embed1-text {
+    width: 50%;
+    padding: 4.5vw 3.2vw 0;
+    box-sizing: border-box;
+  }
+
+  .align-right {
+    text-align: right;
+  }
+
+  .embed1-title {
+    font-family: Montserrat-ExtraBold;
+    font-size: 36px;
+    color: #a135f7;
+    letter-spacing: 0;
+  }
+
+  .embed1-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 4.8vw;
+    letter-spacing: 0;
+  }
+
+  .embed2 {
+    width: 80vw;
+    /* border: 1px solid; */
+    margin: 3.5vw auto 5.6vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .embed2-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 0.8vw;
+    letter-spacing: 0;
+  }
+
+  .separator {
+    width: 249px;
+    margin: 0 auto;
+  }
+
+  .drop-a-line-section {
+    width: 100vw;
+    height: 33.6vw;
+    background-image: linear-gradient(90deg, #00dcf9 0%, #a234f7 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .drop-a-line-container {
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .drop-a-line-text {
+    width: 50%;
+    /* padding: 4vw 0; */
+  }
+  .drop-a-line-form {
+    width: 50%;
+  }
+
+  .drop-a-line-title {
+    font-family: Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  .drop-a-line-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin-top: 0.3vw;
+  }
+
+  .drop-a-line-form {
+    padding-left: 2vw;
+  }
+
+  .drop-a-line-form input {
+    width: 26.7vw;
+    height: 2.6vw;
+    margin-bottom: 2vw;
+    font-size: 18px;
+    font-family: Poppins-Light;
+  }
+
+  .input-email-btn-footer {
+    width: 14.4vw;
+    height: 4.4vw;
+    background-color: #00dcf9;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 0;
+    border-radius: 26px;
+    color: white;
+  }
+}
+
+/* large laptop */
+@media only screen and (min-width: 1440px) {
+  /* email section */
+  .email-cta-section {
+    width: 100vw;
+    height: 68.8vw;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .email-cta-container {
+    margin-top: 13vw;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-cta-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 69px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .email-cta-subtitle {
+    display: block;
+    height: 10vw;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 2vw;
+  }
+
+  .email-input-container {
+    width: 31vw;
+    height: 2.9vw;
+    margin: 0 auto;
+  }
+
+  #email-input {
+    width: 31vw;
+    height: 2.9vw;
+    background: #dedede;
+    border-radius: 21px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.51);
+    letter-spacing: 0;
+    border: 0;
+    padding: 0 2vw;
+    font-family: Poppins-Light;
+  }
+
+  #email-input:focus {
+    outline: none;
+  }
+
+  .input-email-btn {
+    width: 8.75vw;
+    height: 2.9vw;
+    background-color: #a135f7;
+    color: white;
+    font-size: 14px;
+    border-radius: 21px;
+    position: absolute;
+    right: 34.5vw;
+  }
+
+  .input-email-btn:focus {
+    outline: none;
+  }
+  /*  end email section */
+
+  /* examples section */
+  .examples-overlay {
+    background-color: transparent;
+    width: 100vw;
+    height: 33vw;
+    position: absolute;
+    z-index: 2;
+    top: 41.2vw;
+  }
+
+  .examples-img {
+    width: 52.8vw;
+    height: 33.6vw;
+    margin: 0 auto;
+    background: url(./images/exco.png) center;
+    background-size: cover;
+    border-radius: 23px;
+  }
+
+  /* end example section */
+  /* blue section */
+
+  .desc-blue-section {
+    background-color: #151b20;
+    width: 100vw;
+    height: 51.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desc-blue-title {
+    width: 49vw;
+    font-family: Montserrat-ExtraBold;
+    font-size: 2.5rem;
+    color: #00dcf9;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .desc-blue-subtitle {
+    width: 49vw;
+    height: 9.4vw;
+    font-family: Poppins-Light;
+    font-size: 1.25rem;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 0.7vw;
+  }
+
+  .desc-elements {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .element {
+    width: 27vw;
+    text-align: center;
+    font-family: Poppins-Light;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .dialog-icon {
+    width: 10.7vw;
+  }
+
+  .element-title {
+    display: block;
+    font-size: 22px;
+    margin-top: 3.1vw;
+  }
+
+  .element-text {
+    display: block;
+    font-size: 19px;
+  }
+
+  .vertical-separator {
+    width: 1px;
+    height: 18vw;
+    background-color: #d8d8d8;
+    top: 6.7vw;
+    position: relative;
+  }
+  /* end blue section */
+  /* embed section */
+
+  .embed-section {
+    width: 100vw;
+  }
+
+  .embed-section-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 4.1vw auto;
+  }
+
+  .embed1 {
+    width: 80vw;
+    /* border: 1px solid; */
+    margin: 4.8vw auto 3.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .embed1-script {
+    width: 50%;
+  }
+
+  .embed1-text {
+    width: 50%;
+    padding: 10.5vw 3.2vw 0;
+    box-sizing: border-box;
+  }
+
+  .align-right {
+    text-align: right;
+  }
+
+  .embed1-title {
+    font-family: Montserrat-ExtraBold;
+    font-size: 35px;
+    color: #a135f7;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .embed1-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 0.7vw;
+    letter-spacing: 0;
+  }
+
+  .embed2 {
+    width: 80vw;
+    /* border: 1px solid; */
+    margin: 3.5vw auto 5.6vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .embed2-text {
+    width: 50%;
+    padding: 16vw 3.2vw 0;
+    box-sizing: border-box;
+  }
+
+  .embed2-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 0.7vw;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .separator {
+    width: 249px;
+    margin: 0 auto;
+  }
+
+  .drop-a-line-section {
+    width: 100vw;
+    height: 33.6vw;
+    background-image: linear-gradient(90deg, #00dcf9 0%, #a234f7 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .drop-a-line-container {
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .drop-a-line-text {
+    width: 28.4vw;
+    padding: 0 1vw;
+  }
+  .drop-a-line-form {
+    width: 50%;
+  }
+
+  .drop-a-line-title {
+    font-family: Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  .drop-a-line-subtitle {
+    display: block;
+    font-family: Poppins-Light;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin-top: 0.3vw;
+  }
+
+  .drop-a-line-form input {
+    width: 26.7vw;
+    height: 2.6vw;
+    margin-bottom: 2vw;
+    font-size: 18px;
+    font-family: Poppins-Light;
+  }
+
+  .input-email-btn-footer {
+    width: 9.4vw;
+    height: 3.4vw;
+    background-color: #00dcf9;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0;
+    border-radius: 26px;
+    color: white;
+  }
+}

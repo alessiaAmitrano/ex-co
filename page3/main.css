@@ -69,7 +69,6 @@ html {
     letter-spacing: 0;
     border: 0;
     padding: 0 2vw;
-    font-family: Poppins-Light;
   }
 
   #email-input:focus {
@@ -85,6 +84,7 @@ html {
     border-radius: 21px;
     position: absolute;
     right: 5.5vw;
+    border: none;
   }
 
   .input-email-btn:focus {
@@ -118,12 +118,18 @@ html {
     border: 1px solid #ffffff;
     position: absolute;
     left: 40%;
+    opacity: 0.63;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 120, 255, 0) 0%,
+      #009bff 100%
+    );
   }
 
   .examples-img-over-2 {
     width: 46%;
     height: 32vw;
-    margin-top: 4vw;
+    margin-top: 3vw;
     border: 1px solid #ffffff;
     position: absolute;
     left: 39%;
@@ -144,19 +150,6 @@ html {
     margin: 0;
     font-size: 12px !important;
     letter-spacing: 0 !important;
-  }
-
-  .examples-img-over-2-gradient {
-    width: 100%;
-    height: 43%;
-    opacity: 0.58;
-    background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0%,
-      #000000 100%
-    );
-    position: absolute;
-    bottom: 0;
   }
 
   .examples-img-over-2 > span {
@@ -180,16 +173,16 @@ html {
     top: 37.4vw;
     left: 39vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
 
   .btn {
     width: 30%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.71);
+    opacity: 0.58;
+    background: #28a0f9;
     border: 1px solid #ffffff;
-    opacity: 0.83;
     font-family: Poppins-SemiBold;
     font-size: 9px;
     color: #313131;
@@ -367,11 +360,6 @@ html {
     line-height: 26px;
   }
 
-  .icon-how {
-    margin-top: 13vw;
-    margin-bottom: 7.2vw;
-  }
-
   .desc-blue-how {
     font-family: Poppins-Light;
     font-size: 23px;
@@ -535,7 +523,6 @@ html {
     height: 11vw;
     margin-bottom: 3vw;
     font-size: 18px;
-    font-family: Poppins-Light;
   }
 
   .input-email-btn-footer {
@@ -607,7 +594,6 @@ html {
     letter-spacing: 0;
     border: 0;
     padding: 0 2vw;
-    font-family: Poppins-Light;
   }
 
   #email-input:focus {
@@ -623,6 +609,7 @@ html {
     border-radius: 21px;
     position: absolute;
     right: 34.5vw;
+    border: none;
   }
 
   .input-email-btn:focus {
@@ -650,21 +637,27 @@ html {
   }
 
   .examples-img-over-1 {
-    width: 32vw;
-    height: 22vw;
+    width: 31vw;
+    height: 16vw;
     margin-top: 2vw;
     border: 1px solid #ffffff;
     position: absolute;
     left: 43vw;
+    opacity: 0.63;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 120, 255, 0) 0%,
+      #009bff 100%
+    );
   }
 
   .examples-img-over-2 {
-    width: 32vw;
-    height: 22vw;
-    margin-top: 3vw;
+    width: 31vw;
+    height: 16vw;
+    margin-top: 2.5vw;
     border: 1px solid #ffffff;
     position: absolute;
-    left: 42vw;
+    left: 42.3vw;
   }
 
   .examples-img-over-2-circles {
@@ -685,24 +678,11 @@ html {
     padding-right: 2.5vw;
   }
 
-  .examples-img-over-2-gradient {
-    width: 100%;
-    height: 9.5vw;
-    opacity: 0.58;
-    background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0%,
-      #000000 100%
-    );
-    position: absolute;
-    bottom: 0;
-  }
-
   .examples-img-over-2 > span {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 105%;
+    width: 28.8vw;
     height: 7.6vw;
     font-family: Poppins;
     font-size: 24px;
@@ -715,21 +695,21 @@ html {
 
   .examples-btn-container {
     width: 32vw;
-    height: 2.9vw;
+    height: 9.8vw;
     position: absolute;
-    top: 26vw;
+    top: 19.7vw;
     left: 42vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
 
   .btn {
     width: 30%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.71);
+    opacity: 0.58;
+    background: #28a0f9;
     border: 1px solid #ffffff;
-    opacity: 0.83;
     font-family: Poppins-SemiBold;
     font-size: 16px;
     color: #313131;
@@ -1069,11 +1049,6 @@ html {
     margin-top: 0.7vw;
   }
 
-  .icon-how {
-    margin-top: 4.5vw;
-    margin-bottom: 0.7vw;
-  }
-
   .desc-blue-how {
     font-family: Poppins-Light;
     font-size: 25px;
@@ -1206,7 +1181,6 @@ html {
     height: 2.6vw;
     margin-bottom: 2vw;
     font-size: 18px;
-    font-family: Poppins-Light;
   }
 
   .input-email-btn-footer {
@@ -1218,6 +1192,7 @@ html {
     letter-spacing: 0;
     border-radius: 26px;
     color: white;
+    border: none;
   }
 }
 
@@ -1226,7 +1201,7 @@ html {
   /* email section */
   .email-cta-section {
     width: 100vw;
-    height: 75vw;
+    height: 66.2vw;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -1247,6 +1222,7 @@ html {
     color: #000000;
     letter-spacing: 0;
     text-align: center;
+    margin-bottom: 3.6vw;
   }
 
   .email-cta-subtitle {
@@ -1276,7 +1252,6 @@ html {
     letter-spacing: 0;
     border: 0;
     padding: 0 2vw;
-    font-family: Poppins-Light;
   }
 
   #email-input:focus {
@@ -1306,34 +1281,40 @@ html {
     height: 33vw;
     position: absolute;
     z-index: 2;
-    top: 45vw;
+    top: 36vw;
   }
 
   .examples-img {
     width: 58vw;
     height: 33vw;
     margin: 0 auto;
-    background: url(./images/watch.png) center;
+    background: url(./images/salt.png) center;
     border-radius: 23px 23px 0 0;
     background-size: cover;
   }
 
   .examples-img-over-1 {
-    width: 32vw;
-    height: 22vw;
+    width: 31vw;
+    height: 16vw;
     margin-top: 2vw;
     border: 1px solid #ffffff;
     position: absolute;
     left: 43vw;
+    opacity: 0.63;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 120, 255, 0) 0%,
+      #009bff 100%
+    );
   }
 
   .examples-img-over-2 {
-    width: 32vw;
-    height: 22vw;
-    margin-top: 3vw;
+    width: 31vw;
+    height: 16vw;
+    margin-top: 2.5vw;
     border: 1px solid #ffffff;
     position: absolute;
-    left: 42vw;
+    left: 42.3vw;
   }
 
   .examples-img-over-2-circles {
@@ -1352,24 +1333,11 @@ html {
     font-family: Helvetica;
   }
 
-  .examples-img-over-2-gradient {
-    width: 100%;
-    height: 9.5vw;
-    opacity: 0.58;
-    background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0%,
-      #000000 100%
-    );
-    position: absolute;
-    bottom: 0;
-  }
-
   .examples-img-over-2 > span {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 105%;
+    width: 28.8vw;
     height: 7.6vw;
     font-family: Poppins;
     font-size: 34px;
@@ -1382,21 +1350,21 @@ html {
 
   .examples-btn-container {
     width: 32vw;
-    height: 2.9vw;
+    height: 9.8vw;
     position: absolute;
-    top: 26vw;
+    top: 19.7vw;
     left: 42vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
 
   .btn {
-    width: 30%;
+    width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.71);
+    opacity: 0.58;
+    background: #28a0f9;
     border: 1px solid #ffffff;
-    opacity: 0.83;
     font-family: Poppins-SemiBold;
     font-size: 16px;
     color: #313131;
@@ -1557,7 +1525,7 @@ html {
     right: 3%;
   }
   .example-desc-result {
-    background: url('./images/watch-close.png') no-repeat center top;
+    background: url('./images/salad.png') no-repeat center top;
     background-size: 100%;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.15);
     border-radius: 24px;
@@ -1672,7 +1640,7 @@ html {
   /* blue section */
 
   .desc-blue-section {
-    background-color: #151b20;
+    background-color: #28a0f9;
     width: 100vw;
     height: 40vw;
     display: flex;
@@ -1685,7 +1653,7 @@ html {
     width: 49vw;
     font-family: Montserrat-ExtraBold;
     font-size: 2.5rem;
-    color: #00dcf9;
+    color: white;
     letter-spacing: 0;
     text-align: center;
   }
@@ -1698,11 +1666,6 @@ html {
     letter-spacing: 0;
     text-align: center;
     margin-top: 0.7vw;
-  }
-
-  .icon-how {
-    margin-top: 4.5vw;
-    margin-bottom: 0.7vw;
   }
 
   .desc-blue-how {
@@ -1833,7 +1796,6 @@ html {
     height: 2.6vw;
     margin-bottom: 2vw;
     font-size: 18px;
-    font-family: Poppins-Light;
   }
 
   .input-email-btn-footer {

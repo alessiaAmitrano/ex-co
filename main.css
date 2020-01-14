@@ -69,6 +69,7 @@ html {
     letter-spacing: 0;
     border: 0;
     padding: 0 2vw;
+    font-family: Poppins-Light;
   }
 
   #email-input:focus {
@@ -84,7 +85,6 @@ html {
     border-radius: 21px;
     position: absolute;
     right: 5.5vw;
-    border: none;
   }
 
   .input-email-btn:focus {
@@ -118,18 +118,12 @@ html {
     border: 1px solid #ffffff;
     position: absolute;
     left: 40%;
-    opacity: 0.63;
-    background-image: linear-gradient(
-      180deg,
-      rgba(0, 120, 255, 0) 0%,
-      #009bff 100%
-    );
   }
 
   .examples-img-over-2 {
     width: 46%;
     height: 32vw;
-    margin-top: 3vw;
+    margin-top: 4vw;
     border: 1px solid #ffffff;
     position: absolute;
     left: 39%;
@@ -150,6 +144,19 @@ html {
     margin: 0;
     font-size: 12px !important;
     letter-spacing: 0 !important;
+  }
+
+  .examples-img-over-2-gradient {
+    width: 100%;
+    height: 43%;
+    opacity: 0.58;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      #000000 100%
+    );
+    position: absolute;
+    bottom: 0;
   }
 
   .examples-img-over-2 > span {
@@ -173,16 +180,16 @@ html {
     top: 37.4vw;
     left: 39vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
   }
 
   .btn {
     width: 30%;
     height: 100%;
-    opacity: 0.58;
-    background: #28a0f9;
+    background: rgba(255, 255, 255, 0.71);
     border: 1px solid #ffffff;
+    opacity: 0.83;
     font-family: Poppins-SemiBold;
     font-size: 9px;
     color: #313131;
@@ -360,6 +367,11 @@ html {
     line-height: 26px;
   }
 
+  .icon-how {
+    margin-top: 13vw;
+    margin-bottom: 7.2vw;
+  }
+
   .desc-blue-how {
     font-family: Poppins-Light;
     font-size: 23px;
@@ -523,6 +535,7 @@ html {
     height: 11vw;
     margin-bottom: 3vw;
     font-size: 18px;
+    font-family: Poppins-Light;
   }
 
   .input-email-btn-footer {
@@ -594,6 +607,7 @@ html {
     letter-spacing: 0;
     border: 0;
     padding: 0 2vw;
+    font-family: Poppins-Light;
   }
 
   #email-input:focus {
@@ -609,7 +623,6 @@ html {
     border-radius: 21px;
     position: absolute;
     right: 34.5vw;
-    border: none;
   }
 
   .input-email-btn:focus {
@@ -637,27 +650,21 @@ html {
   }
 
   .examples-img-over-1 {
-    width: 31vw;
-    height: 16vw;
+    width: 32vw;
+    height: 22vw;
     margin-top: 2vw;
     border: 1px solid #ffffff;
     position: absolute;
     left: 43vw;
-    opacity: 0.63;
-    background-image: linear-gradient(
-      180deg,
-      rgba(0, 120, 255, 0) 0%,
-      #009bff 100%
-    );
   }
 
   .examples-img-over-2 {
-    width: 31vw;
-    height: 16vw;
-    margin-top: 2.5vw;
+    width: 32vw;
+    height: 22vw;
+    margin-top: 3vw;
     border: 1px solid #ffffff;
     position: absolute;
-    left: 42.3vw;
+    left: 42vw;
   }
 
   .examples-img-over-2-circles {
@@ -678,11 +685,24 @@ html {
     padding-right: 2.5vw;
   }
 
+  .examples-img-over-2-gradient {
+    width: 100%;
+    height: 9.5vw;
+    opacity: 0.58;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      #000000 100%
+    );
+    position: absolute;
+    bottom: 0;
+  }
+
   .examples-img-over-2 > span {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 28.8vw;
+    width: 105%;
     height: 7.6vw;
     font-family: Poppins;
     font-size: 24px;
@@ -695,21 +715,21 @@ html {
 
   .examples-btn-container {
     width: 32vw;
-    height: 9.8vw;
+    height: 2.9vw;
     position: absolute;
-    top: 19.7vw;
+    top: 26vw;
     left: 42vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
   }
 
   .btn {
     width: 30%;
     height: 100%;
-    opacity: 0.58;
-    background: #28a0f9;
+    background: rgba(255, 255, 255, 0.71);
     border: 1px solid #ffffff;
+    opacity: 0.83;
     font-family: Poppins-SemiBold;
     font-size: 16px;
     color: #313131;
@@ -1049,6 +1069,11 @@ html {
     margin-top: 0.7vw;
   }
 
+  .icon-how {
+    margin-top: 4.5vw;
+    margin-bottom: 0.7vw;
+  }
+
   .desc-blue-how {
     font-family: Poppins-Light;
     font-size: 25px;
@@ -1181,6 +1206,7 @@ html {
     height: 2.6vw;
     margin-bottom: 2vw;
     font-size: 18px;
+    font-family: Poppins-Light;
   }
 
   .input-email-btn-footer {
@@ -1192,7 +1218,6 @@ html {
     letter-spacing: 0;
     border-radius: 26px;
     color: white;
-    border: none;
   }
 }
 
@@ -1201,7 +1226,7 @@ html {
   /* email section */
   .email-cta-section {
     width: 100vw;
-    height: 66.2vw;
+    height: 75vw;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -1222,7 +1247,6 @@ html {
     color: #000000;
     letter-spacing: 0;
     text-align: center;
-    margin-bottom: 3.6vw;
   }
 
   .email-cta-subtitle {
@@ -1252,6 +1276,7 @@ html {
     letter-spacing: 0;
     border: 0;
     padding: 0 2vw;
+    font-family: Poppins-Light;
   }
 
   #email-input:focus {
@@ -1281,40 +1306,34 @@ html {
     height: 33vw;
     position: absolute;
     z-index: 2;
-    top: 36vw;
+    top: 45vw;
   }
 
   .examples-img {
     width: 58vw;
     height: 33vw;
     margin: 0 auto;
-    background: url(./images/salt.png) center;
+    background: url(./images/watch.png) center;
     border-radius: 23px 23px 0 0;
     background-size: cover;
   }
 
   .examples-img-over-1 {
-    width: 31vw;
-    height: 16vw;
+    width: 32vw;
+    height: 22vw;
     margin-top: 2vw;
     border: 1px solid #ffffff;
     position: absolute;
     left: 43vw;
-    opacity: 0.63;
-    background-image: linear-gradient(
-      180deg,
-      rgba(0, 120, 255, 0) 0%,
-      #009bff 100%
-    );
   }
 
   .examples-img-over-2 {
-    width: 31vw;
-    height: 16vw;
-    margin-top: 2.5vw;
+    width: 32vw;
+    height: 22vw;
+    margin-top: 3vw;
     border: 1px solid #ffffff;
     position: absolute;
-    left: 42.3vw;
+    left: 42vw;
   }
 
   .examples-img-over-2-circles {
@@ -1333,11 +1352,24 @@ html {
     font-family: Helvetica;
   }
 
+  .examples-img-over-2-gradient {
+    width: 100%;
+    height: 9.5vw;
+    opacity: 0.58;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      #000000 100%
+    );
+    position: absolute;
+    bottom: 0;
+  }
+
   .examples-img-over-2 > span {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 28.8vw;
+    width: 105%;
     height: 7.6vw;
     font-family: Poppins;
     font-size: 34px;
@@ -1350,39 +1382,27 @@ html {
 
   .examples-btn-container {
     width: 32vw;
-    height: 9.8vw;
+    height: 2.9vw;
     position: absolute;
-    top: 19.7vw;
+    top: 26vw;
     left: 42vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
   }
 
-  .btn-container {
-    width: 100%;
-    height: 2.9vw;
-    padding: auto;
-    position: relative;
-  }
-
-  .btn-container span {
+  .btn {
+    width: 30%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.71);
+    border: 1px solid #ffffff;
+    opacity: 0.83;
     font-family: Poppins-SemiBold;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.83);
+    color: #313131;
     letter-spacing: 0;
-    text-align: left;
-    position: absolute;
-    top: 0.5vw;
-    left: 1.5vw;
-  }
-
-  .btn-bkg {
-    width: 100%;
-    height: 2.9vw;
-    opacity: 0.58;
-    background: #28a0f9;
-    border: 1px solid #ffffff;
+    text-align: center;
+    padding: auto;
   }
 
   .examples-white-line {
@@ -1396,8 +1416,148 @@ html {
     margin-left: 16vw;
   }
 
+  .examples-chart-container {
+    background-color: #fff;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 3;
+    top: 8.9vw;
+    left: 8vw;
+    width: 28vw;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chart-title {
+    font-family: Montserrat-Bold;
+    font-size: 1rem;
+    color: #555555;
+    letter-spacing: 0;
+    padding: 1.7vw 0 1vw;
+  }
+
+  .first-row {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+  }
+
+  .first-row__progress-bar {
+    background: #f5f5f5;
+    border-radius: 4px;
+    height: 2.8vw;
+    width: 85%;
+  }
+
+  .first-row__progress {
+    background: #e6e7e8;
+    height: inherit;
+    width: 90%;
+    border-radius: 4px;
+  }
+
+  .first-row__progress-text {
+    padding-left: 0.6vw;
+    padding-top: 0.2vw;
+    display: block;
+    width: 55%;
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #555555;
+    letter-spacing: 0;
+    line-height: 17px;
+  }
+
+  .percentage {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #28a0f9;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    right: 9%;
+    top: 31%;
+  }
+  .second-row {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+  }
+
+  .answers {
+    width: 16%;
+    background: #f5f5f5;
+    font-family: Poppins-Regular;
+    font-size: 11px;
+    color: #555555;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 0.8vw;
+    padding: 2.8vw 0;
+  }
+
+  .answers-pb-container {
+    width: 100%;
+    margin-top: 0.8vw;
+    margin-left: 0.8vw;
+  }
+  .simple-progress-bar {
+    height: 1.95vw;
+    width: 100%;
+    background: #f5f5f5;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .classic-pb {
+    margin: 0.2vw 0;
+  }
+
+  .simple__progress {
+    background-image: linear-gradient(45deg, #c25dff 0%, #0ea9ff 100%);
+    opacity: 20%;
+    border-radius: 4px 0 0 4px;
+    height: inherit;
+    width: 77.5%;
+  }
+
+  .classic-progress {
+    width: 47%;
+  }
+  .modern-progress {
+    width: 43%;
+  }
+
+  .simple__progress-text {
+    position: absolute;
+    z-index: 1;
+    top: 0.3vw;
+    left: 25%;
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    color: #555555;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+
+  .answer-count {
+    font-family: Poppins-SemiBold;
+    font-size: 14px;
+    color: #555555;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 18px;
+    z-index: 1;
+    position: absolute;
+    top: 0.3vw;
+    right: 3%;
+  }
   .example-desc-result {
-    background: url('./images/salad.png') no-repeat center top;
+    background: url('./images/watch-close.png') no-repeat center top;
     background-size: 100%;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.15);
     border-radius: 24px;
@@ -1448,7 +1608,7 @@ html {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    margin-top: 0.95vw;
+    margin-top: 1.95vw;
   }
   .join-text > div {
     width: 30%;
@@ -1512,9 +1672,9 @@ html {
   /* blue section */
 
   .desc-blue-section {
-    background-color: #28a0f9;
+    background-color: #151b20;
     width: 100vw;
-    height: 34.5vw;
+    height: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1525,7 +1685,7 @@ html {
     width: 49vw;
     font-family: Montserrat-ExtraBold;
     font-size: 2.5rem;
-    color: white;
+    color: #00dcf9;
     letter-spacing: 0;
     text-align: center;
   }
@@ -1538,6 +1698,11 @@ html {
     letter-spacing: 0;
     text-align: center;
     margin-top: 0.7vw;
+  }
+
+  .icon-how {
+    margin-top: 4.5vw;
+    margin-bottom: 0.7vw;
   }
 
   .desc-blue-how {
@@ -1668,6 +1833,7 @@ html {
     height: 2.6vw;
     margin-bottom: 2vw;
     font-size: 18px;
+    font-family: Poppins-Light;
   }
 
   .input-email-btn-footer {

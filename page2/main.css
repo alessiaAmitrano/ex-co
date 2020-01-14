@@ -710,6 +710,10 @@ html {
     margin: 0 auto;
   }
 
+  .email-input-container form {
+    position: relative;
+  }
+
   #email-input {
     width: 31vw;
     height: 2.9vw;
@@ -735,7 +739,8 @@ html {
     font-size: 14px;
     border-radius: 21px;
     position: absolute;
-    right: 34.5vw;
+    top: 0;
+    right: -0.5vw;
   }
 
   .input-email-btn:focus {
@@ -750,7 +755,7 @@ html {
     height: 33vw;
     position: absolute;
     z-index: 2;
-    top: 41.2vw;
+    top: 52.2vw;
   }
 
   .examples-img {
@@ -777,6 +782,7 @@ html {
 
   .desc-blue-title {
     width: 49vw;
+    margin-top: 11vw;
     font-family: Montserrat-ExtraBold;
     font-size: 2.5rem;
     color: #00dcf9;

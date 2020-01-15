@@ -85,6 +85,7 @@ html {
     border-radius: 21px;
     position: absolute;
     right: 5.5vw;
+    border: none;
   }
 
   .input-email-btn:focus {
@@ -98,7 +99,7 @@ html {
     width: 100%;
     position: absolute;
     z-index: 2;
-    top: 152vw;
+    top: 155vw;
   }
 
   .examples-img {
@@ -343,6 +344,7 @@ html {
     letter-spacing: 0;
     border-radius: 26px;
     color: white;
+    border: none;
   }
 
   /* end drop a line section */
@@ -419,6 +421,7 @@ html {
     border-radius: 21px;
     position: absolute;
     right: 34.5vw;
+    border: none;
   }
 
   .input-email-btn:focus {
@@ -662,6 +665,7 @@ html {
     letter-spacing: 0;
     border-radius: 26px;
     color: white;
+    border: none;
   }
 }
 
@@ -741,6 +745,7 @@ html {
     position: absolute;
     top: 0;
     right: -0.5vw;
+    border: none;
   }
 
   .input-email-btn:focus {
@@ -985,5 +990,6 @@ html {
     letter-spacing: 0;
     border-radius: 26px;
     color: white;
+    border: none;
   }
 }

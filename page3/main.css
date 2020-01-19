@@ -381,6 +381,15 @@ html {
     width: 100%;
   }
 
+  .embed-section-title {
+    display: block;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 10.6vw;
+  }
+
   .embed1 {
     width: 95.5vw;
     /* border: 1px solid; */
@@ -1070,6 +1079,16 @@ html {
     width: 100vw;
   }
 
+  .embed-section-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 4.1vw auto;
+  }
+
   .embed1 {
     width: 80vw;
     /* border: 1px solid; */
@@ -1095,8 +1114,8 @@ html {
 
   .embed1-title {
     font-family: Montserrat-ExtraBold;
-    font-size: 36px;
-    color: #a135f7;
+    font-size: 35px;
+    color: #28a0f9;
     letter-spacing: 0;
   }
 
@@ -1433,6 +1452,10 @@ html {
     padding: 5% 10% 0;
   }
 
+  .second-subtitle {
+    padding-top: 0;
+  }
+
   .liner {
     height: 2px;
     width: 25%;
@@ -1495,9 +1518,12 @@ html {
     border-bottom: 1px solid #a135f7;
     width: 63%;
     height: 1.25vw;
-    color: rgba(0, 0, 0, 0.28);
+    color: rgba(0, 0, 0);
     letter-spacing: 0;
     margin-bottom: 0.3vw;
+    opacity: 0.28;
+    font-size: 7px;
+    padding-top: 0.4vw;
   }
 
   .join-submit-btn {
@@ -1538,6 +1564,7 @@ html {
     letter-spacing: 0;
     text-align: center;
     margin-top: 0.7vw;
+    margin: 1.7vw auto;
   }
 
   .desc-blue-how {
@@ -1549,7 +1576,7 @@ html {
   }
 
   .by-providing {
-    width: 30vw;
+    width: 54vw;
     margin-top: 0;
     font-family: Poppins-Light;
   }
@@ -1559,6 +1586,16 @@ html {
 
   .embed-section {
     width: 100vw;
+  }
+
+  .embed-section-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 4.1vw auto;
   }
 
   .embed1 {
@@ -1586,8 +1623,8 @@ html {
 
   .embed1-title {
     font-family: Montserrat-ExtraBold;
-    font-size: 36px;
-    color: #a135f7;
+    font-size: 35px;
+    color: #28a0f9;
     letter-spacing: 0;
   }
 
@@ -1642,17 +1679,20 @@ html {
 
   .drop-a-line-text {
     width: 50%;
-    padding: 4vw 0;
+    padding: 0 4vw 0 0;
   }
+
   .drop-a-line-form {
     width: 50%;
   }
 
   .drop-a-line-title {
+    display: block;
     font-family: Montserrat-ExtraBold;
     font-size: 40px;
     color: #ffffff;
     letter-spacing: 0;
+    margin-bottom: 1vw;
   }
   .drop-a-line-subtitle {
     display: block;

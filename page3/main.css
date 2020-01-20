@@ -68,7 +68,7 @@ html {
     color: rgba(0, 0, 0, 0.51);
     letter-spacing: 0;
     border: 0;
-    padding: 0 2vw;
+    padding: 0 12vw;
   }
 
   #email-input:focus {
@@ -105,7 +105,7 @@ html {
     width: 83%;
     height: 47.8vw;
     margin: 0 auto;
-    background: url(./images/watch.png) center;
+    background: url(./images/salt.png) center;
     border-radius: 23px 23px 0 0;
     background-size: cover;
     background-position: 0px;
@@ -113,7 +113,8 @@ html {
 
   .examples-img-over-1 {
     width: 46%;
-    height: 32vw;
+    width: 46%;
+    height: 23vw;
     margin-top: 3vw;
     border: 1px solid #ffffff;
     position: absolute;
@@ -128,7 +129,7 @@ html {
 
   .examples-img-over-2 {
     width: 46%;
-    height: 32vw;
+    height: 23vw;
     margin-top: 3vw;
     border: 1px solid #ffffff;
     position: absolute;
@@ -138,7 +139,7 @@ html {
   .examples-img-over-2-circles {
     margin-left: 1.5vw;
     margin-top: 1vw;
-    width: 1.6vw;
+    width: 3.2vw;
     position: absolute;
   }
 
@@ -148,8 +149,9 @@ html {
     text-align: right;
     width: 100% !important;
     margin: 0;
-    font-size: 12px !important;
     letter-spacing: 0 !important;
+    font-size: 6px !important;
+    color: #8e7d7d !important;
   }
 
   .examples-img-over-2 > span {
@@ -158,37 +160,49 @@ html {
     bottom: 0;
     width: 100%;
     font-family: Poppins;
-    font-size: 15px;
     font-weight: 300;
+    font-size: 13px;
     color: #ffffff;
     letter-spacing: 0;
-    line-height: 21px;
+    line-height: 19px;
     padding: 0 1.4vw 3.5vw;
   }
 
   .examples-btn-container {
     width: 46%;
-    height: 4.22vw;
+    height: 14.3vw;
     position: absolute;
-    top: 37.4vw;
+    top: 28vw;
     left: 39vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .btn {
-    width: 30%;
+  .btn-container {
+    width: 100%;
+    height: 4.1vw;
+    padding: auto;
+    position: relative;
+  }
+
+  .btn-container span {
+    font-family: Poppins-SemiBold;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.83);
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+    top: 0.5vw;
+    left: 1.5vw;
+  }
+
+  .btn-bkg {
+    width: 100%;
     height: 100%;
     opacity: 0.58;
     background: #28a0f9;
     border: 1px solid #ffffff;
-    font-family: Poppins-SemiBold;
-    font-size: 9px;
-    color: #313131;
-    letter-spacing: 0;
-    text-align: center;
-    padding: auto;
   }
 
   .examples-white-line {
@@ -206,14 +220,14 @@ html {
   }
 
   .example-desc-result {
-    background: url('./images/watch-mobile.png') no-repeat center top;
+    background: url('./images/salad.png') no-repeat center top;
     background-size: 101%;
     background-color: #fff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
+    border-radius: 15px;
     position: absolute;
-    top: 19vw;
-    left: 12vw;
+    top: 7.2vw;
+    left: 4.2vw;
     width: 18vw;
     height: 34.7vw;
     z-index: 3;
@@ -222,7 +236,7 @@ html {
   .ex-desc-res-text-container {
     position: absolute;
     width: 100%;
-    top: 13vw;
+    top: 11vw;
     text-align: center;
   }
 
@@ -310,8 +324,8 @@ html {
     color: rgba(0, 0, 0, 0.28);
     letter-spacing: 0;
     margin-bottom: 0.3125rem;
-    font-size: 3px;
-    padding-top: 3px;
+    font-size: 4px;
+    padding-top: 1px;
   }
 
   .join-submit-btn {
@@ -329,7 +343,7 @@ html {
   /* blue section */
 
   .desc-blue-section {
-    background-color: #151b20;
+    background-color: #28a0f9;
     width: 100%;
     height: 40.875rem;
     display: flex;
@@ -345,7 +359,7 @@ html {
     top: 0;
     font-family: Montserrat-ExtraBold;
     font-size: 26px;
-    color: #00dcf9;
+    color: #ffffff;
     letter-spacing: 0;
     text-align: center;
   }
@@ -1030,7 +1044,7 @@ html {
   /* blue section */
 
   .desc-blue-section {
-    background-color: #151b20;
+    background-color: #28a0f9;
     width: 100vw;
     height: 55vw;
     display: flex;
@@ -1043,7 +1057,7 @@ html {
     width: 75vw;
     font-family: Montserrat-ExtraBold;
     font-size: 2.5rem;
-    color: #00dcf9;
+    color: #ffffff\;
     letter-spacing: 0;
     text-align: center;
   }

@@ -20,7 +20,7 @@ html {
   /* email section */
   .email-cta-section {
     width: 100%;
-    height: 170.4vw;
+    height: 121.4vw;
     background-color: #f2f2f2;
     display: flex;
     flex-direction: row;
@@ -98,7 +98,7 @@ html {
     width: 100%;
     position: absolute;
     z-index: 2;
-    top: 32rem;
+    top: 23rem;
   }
 
   .examples-img {
@@ -345,17 +345,16 @@ html {
   .desc-blue-section {
     background-color: #28a0f9;
     width: 100%;
-    height: 40.875rem;
+    height: 131.6vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
   }
 
   .desc-blue-title {
     width: 90%;
-    margin-top: 29vw;
     top: 0;
     font-family: Montserrat-ExtraBold;
     font-size: 26px;
@@ -367,7 +366,7 @@ html {
   .desc-blue-subtitle {
     width: 90%;
     font-family: Poppins-Light;
-    margin-top: 10vw;
+    margin: 10vw 0 5vw 0;
     font-size: 16px;
     color: #ffffff;
     text-align: center;
@@ -385,6 +384,7 @@ html {
   .by-providing {
     width: 90%;
     margin-top: 0;
+    margin-bottom: 13.4vw;
     font-family: Poppins-Light;
   }
 
@@ -489,51 +489,30 @@ html {
 
   .drop-a-line-text {
     text-align: center;
-  }
-
-  .drop-a-line-form {
-    /* width: 50%; */
+    width: 100%;
   }
 
   .drop-a-line-title {
+    display: block;
     font-family: Montserrat-ExtraBold;
     font-size: 26px;
     color: #ffffff;
     letter-spacing: 0;
+    margin-bottom: 13.4vw;
   }
   .drop-a-line-subtitle {
     display: block;
-    margin-top: 0.625rem;
     font-family: Poppins-Light;
+    margin-bottom: 40px;
+    font-family: Helvetica;
     font-size: 16px;
     color: #ffffff;
     text-align: center;
     line-height: 26px;
-    padding: 0 3vw;
   }
 
-  .drop-a-line-text {
-    width: 100%;
-    padding: 4vw 0;
-  }
   .drop-a-line-form {
     width: 100%;
-  }
-
-  .drop-a-line-title {
-    font-family: Montserrat-ExtraBold;
-    font-size: 40px;
-    color: #ffffff;
-    letter-spacing: 0;
-  }
-
-  .drop-a-line-subtitle {
-    display: block;
-    font-family: Poppins-Light;
-    font-size: 20px;
-    color: #ffffff;
-    letter-spacing: 0;
-    margin-top: 0.3vw;
   }
 
   .drop-a-line-form form {
@@ -557,6 +536,7 @@ html {
     letter-spacing: 0;
     border-radius: 26px;
     color: white;
+    border: none;
   }
 
   /* end drop a line section */
@@ -584,27 +564,16 @@ html {
   .email-cta-title {
     display: block;
     font-family: Montserrat-ExtraBold;
-    font-size: 69px;
+    font-size: 52px;
     color: #000000;
     letter-spacing: 0;
     text-align: center;
-  }
-
-  .email-cta-subtitle {
-    display: block;
-    height: 10vw;
-    font-family: Poppins-Light;
-    font-size: 20px;
-    color: #000000;
-    letter-spacing: 0;
-    text-align: center;
-    margin-top: 2vw;
   }
 
   .email-input-container {
     width: 31vw;
     height: 2.9vw;
-    margin: 3vw auto;
+    margin: 5vw auto;
   }
 
   #email-input {
@@ -654,7 +623,7 @@ html {
     width: 58vw;
     height: 33vw;
     margin: 0 auto;
-    background: url(./images/watch.png) center;
+    background: url(./images/salt.png) center;
     border-radius: 23px 23px 0 0;
     background-size: cover;
   }
@@ -708,7 +677,7 @@ html {
     width: 28.8vw;
     height: 7.6vw;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     color: #ffffff;
     letter-spacing: 0;
@@ -725,6 +694,32 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .btn-container {
+    width: 100%;
+    height: 2.9vw;
+    padding: auto;
+    position: relative;
+  }
+
+  .btn-container span {
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.83);
+    letter-spacing: 0;
+    text-align: left;
+    position: absolute;
+    top: 0.5vw;
+    left: 1.5vw;
+  }
+
+  .btn-bkg {
+    width: 100%;
+    height: 2.9vw;
+    opacity: 0.58;
+    background: #28a0f9;
+    border: 1px solid #ffffff;
   }
 
   .btn {
@@ -752,161 +747,16 @@ html {
     margin-left: 16vw;
   }
 
-  .examples-chart-container {
-    background-color: #fff;
-    position: absolute;
-    box-sizing: border-box;
-    z-index: 3;
-    top: 8.9vw;
-    left: 8vw;
-    width: 28vw;
-    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 0.25rem;
-    padding-left: 1vw;
-    padding-bottom: 1vw;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .chart-title {
-    font-family: Montserrat-Bold;
-    font-size: 1rem;
-    color: #555555;
-    letter-spacing: 0;
-    padding: 1.7vw 0 1vw;
-  }
-
-  .first-row {
-    display: flex;
-    flex-direction: row;
-    width: 95%;
-  }
-
-  .first-row__progress-bar {
-    background: #f5f5f5;
-    border-radius: 4px;
-    height: 5.4vw;
-    width: 85%;
-  }
-
-  .first-row__progress {
-    background: #e6e7e8;
-    height: inherit;
-    width: 90%;
-    border-radius: 4px;
-  }
-
-  .first-row__progress-text {
-    padding-left: 0.6vw;
-    padding-top: 0.2vw;
-    display: block;
-    width: 70%;
-    font-family: Poppins-Regular;
-    font-size: 8px;
-    color: #555555;
-    letter-spacing: 0;
-    line-height: 17px;
-  }
-
-  .percentage {
-    font-family: Poppins;
-    font-size: 14px;
-    color: #28a0f9;
-    letter-spacing: 0;
-    line-height: 18px;
-    position: absolute;
-    right: 9%;
-    top: 31%;
-  }
-  .second-row {
-    display: flex;
-    flex-direction: row;
-    width: 95%;
-  }
-
-  .answers {
-    width: 16%;
-    background: #f5f5f5;
-    font-family: Poppins-Regular;
-    font-size: 9px;
-    color: #555555;
-    letter-spacing: 0;
-    text-align: center;
-    margin-top: 0.8vw;
-    padding: 2.8vw 0;
-  }
-
-  .answers-pb-container {
-    width: 100%;
-    margin-top: 0.8vw;
-    margin-left: 0.8vw;
-  }
-  .simple-progress-bar {
-    height: 1.95vw;
-    width: 100%;
-    background: #f5f5f5;
-    border-radius: 4px;
-    position: relative;
-    padding-bottom: 0.6vw;
-    box-sizing: content-box;
-  }
-
-  .classic-pb {
-    margin: 0.2vw 0;
-  }
-
-  .simple__progress {
-    background-image: linear-gradient(45deg, #c25dff 0%, #0ea9ff 100%);
-    opacity: 20%;
-    border-radius: 4px 0 0 4px;
-    height: inherit;
-    width: 77.5%;
-    padding-bottom: 0.6vw;
-    box-sizing: content-box;
-  }
-
-  .classic-progress {
-    width: 47%;
-  }
-  .modern-progress {
-    width: 43%;
-  }
-
-  .simple__progress-text {
-    position: absolute;
-    z-index: 1;
-    top: 0.3vw;
-    left: 25%;
-    font-family: Poppins-Regular;
-    font-size: 10px;
-    color: #555555;
-    letter-spacing: 0;
-    line-height: 18px;
-  }
-
-  .answer-count {
-    font-family: Poppins-SemiBold;
-    font-size: 14px;
-    color: #555555;
-    letter-spacing: 0;
-    text-align: right;
-    line-height: 18px;
-    z-index: 1;
-    position: absolute;
-    top: 0.3vw;
-    right: 3%;
-  }
-
   .example-desc-result {
-    background: url(./images/watch-close.png) no-repeat center top;
+    background: url(./images/salad.png) no-repeat center top;
     background-size: 100%;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.15);
     border-radius: 24px;
     position: absolute;
-    top: 6.5%;
+    top: 1.5%;
     right: 3vw;
     width: 15.4vw;
-    height: 27vw;
+    height: 29vw;
   }
 
   .ex-desc-res-text-container {
@@ -966,10 +816,10 @@ html {
     }
 
     .example-desc-result {
-      top: 10.5%;
+      top: 3.5%;
       right: 3vw;
       width: 15.4vw;
-      height: 25vw;
+      height: 27vw;
     }
   }
 
@@ -987,7 +837,7 @@ html {
 
   .join-text > div > span {
     font-family: Poppins;
-    font-size: 9px;
+    font-size: 7px;
     color: #a135f7;
     letter-spacing: 0;
     text-align: center;
@@ -1167,7 +1017,7 @@ html {
 
   .drop-a-line-section {
     width: 100vw;
-    height: 33.6vw;
+    height: 43.6vw;
     background-image: linear-gradient(90deg, #00dcf9 0%, #a234f7 100%);
     display: flex;
     flex-direction: column;

@@ -821,6 +821,15 @@ html {
       width: 15.4vw;
       height: 27vw;
     }
+
+    .embed1-title {
+      margin-top: 5vw;
+      display: block;
+      font-family: Montserrat-ExtraBold;
+      font-size: 35px;
+      color: #28a0f9;
+      letter-spacing: 0;
+    }
   }
 
   .join-text {
